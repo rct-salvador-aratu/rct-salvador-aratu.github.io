@@ -1,12 +1,85 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html>
     <head>
+        <!--Import Google Icon Font-->
+        <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <!--Import materialize.css-->
+        <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+        <!-- CSS  -->
+        <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+
+        <!--Let browser know website is optimized for mobile-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
         <title>Rotaract Club Salvador - Aratu</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="css/style.css" rel="stylesheet">
+
+        <style>
+            .scrolloff {
+                pointer-events: none;
+            }
+        </style>
     </head>
-    <body>
+
+    <body id="top">
+        <!--Navigation-->
+        <div class="navbar-fixed">
+            <nav class="nav_f" role="navigation">
+                <div class="container">
+                    <div class="nav-wrapper">
+                        <a href="#" id="logo-container" class="brand-logo"></a>
+                        <ul class="right hide-on-med-and-down">
+                            <li><a href="#club"><i class="material-icons left">apps</i>Quem somos</a></li>
+                            <li><a href="#projetos"><i class="material-icons left">apps</i>Nossos projetos</a></li>
+                            <li><a href="#localizacao"><i class="material-icons left">pin_drop</i>Localização</a></li>
+                            <li><a href="#contato"><i class="material-icons left">chat_bubble_outline</i>Contato</a></li>
+                        </ul>
+                        <ul class="side-nav" id="nav-mobile">
+                            <li><a href="#club"><i class="material-icons left">apps</i>Quem somos</a></li>
+                            <li><a href="#projetos"><i class="material-icons left">apps</i>Nossos projetos</a></li>
+                            <li><a href="#localizacao"><i class="material-icons left">pin_drop</i>Localização</a></li>
+                            <li><a href="#contato"><i class="material-icons left">chat_bubble_outline</i>Contato</a></li>
+                        </ul>
+                        <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <!--Intro-->
+        <div id="intro" class="scrollspy">
+            <div class="container">
+                <div class="row">
+                    <img class="responsive-img" src="img/ri.png">
+                    <h1 class="header">Rotaract Club Salvador - Aratu</h1>
+                    <h5 class="header">A gente faz a diferença e trabalha duro todos os dias, formando líderes através de projetos para construir uma Salvador melhor.</h5>
+                </div>
+            </div>
+        </div>
+
+        <!--Quem Somos-->
+        <div id="club" class="section scrollspy">
+            <div class="container">
+                <div class="row">
+                    <h1 class="header">Quem somos?</h2>
+                    <p class="flow-text">
+                        O Rotaract Club Salvador - Aratu, apadrinhado pelo Rotary Club Salvador - Aratu, é uma organização sem fins lucrativos que visa o desenvolvimento da liderança dos jovens através de projetos que melhorem a qualidade de vida da sociedade na comunidade local e internacional. Fazemos parte do Distrito 4550 de Rotary Internacional e somos parte do programa de Rotaract, que é focado para jovens entre 18 e 30 anos e hoje abrange mais 184 mil membros ao redor do mundo.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!--Localização-->
+        <div class="scrollspy" id="localizacao">
+            <div id="overlay" class="google-maps">
+                <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.6343954089043!2d-38.455134085747545!3d-12.995220190840353!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7161b72879da5f7%3A0xe2df0e3965d8d407!2sFEIS+-+Fraternidade+Esp%C3%ADrita+Irm%C3%A3+Scheilla!5e0!3m2!1spt-BR!2sbr!4v1481604291792" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+        </div>
+
         
+
+        <!--Import jQuery before materialize.js-->
+        <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script src="js/materialize.js"></script>
+        <script src="js/init.js"></script>
     </body>
 </html>
