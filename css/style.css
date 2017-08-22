@@ -20,6 +20,10 @@ img {
     color: transparent;
 }
 
+.button-collapse {
+    color: #d91b5c;
+}
+
 .nav_f {
     background-color: white;
     box-shadow: none;
