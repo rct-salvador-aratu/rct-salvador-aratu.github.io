@@ -2,40 +2,43 @@
     background-color: #d91b5c;
 }
 
-header {
-    width: 100%;
-    text-align: center;    
-    background-color: #FFF;
-}
+/* .brand-logo {
+    height: 100px;
+    width: 200px;
+    display: block;
+    background: url('../img/logo-horizontal.png') no-repeat;
+    background-size: contain;
+    color: transparent;
+} */
 
-header nav {
-    box-shadow: none;
-    width: 100%;
-}
-
-nav ul li {
-    margin-right: 10px;
-}
-
-header nav ul li a{
-    color: #d91b5c;
+img {
+    
+    height: 70px;
+    width: 150px;
+    display: block;
+    background-size: contain;
+    color: transparent;
 }
 
 .nav_f {
-    background-color: transparent;
+    background-color: white;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    transition: 0.5s all linear;
+  }
+
+nav ul a {
+    color: #d91b5c;
+    font-size: 10px;
 }
 
 .intro {
-    min-height: 632px;
-    max-height: 864px;
-    position: relative;
     background-color: #d91b5c;
 }
 
 .text_h {
-    margin: 0;
     font-size: 3.0em;
     font-weight: 300;
-    color: #000;
+    color: #FFF;
     padding-bottom: 1.5em;
 }
