@@ -4,9 +4,9 @@
 
 header {
     width: 100%;
-    text-align: center;
-    
+    text-align: center;    
     background-color: #FFF;
+    padding-top: 2.2em;
 }
 
 header nav {
