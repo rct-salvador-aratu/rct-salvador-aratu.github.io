@@ -1,3 +1,7 @@
+body {
+    background-color: #d91b5c;
+}
+
 .cranberryColor {
     background-color: #d91b5c;
 }
@@ -11,8 +15,13 @@
     color: transparent;
 } */
 
-img {
-    margin-top: 15px;
+.img-intro {
+    filter: opacity(0.6);
+    height: 632px;
+}
+
+.brand-logo {
+    margin-top: 5px;
     height: 100%;
     width: 100%;
     display: block;
@@ -34,16 +43,19 @@ img {
 nav ul a {
     color: #d91b5c;
     font-size: 14px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 8px;
+    padding-right: 8px;
 }
 
 .intro {
+    min-height: 632px;
+    max-height: 864px;
+    position: relative;
     background-color: #d91b5c;
 }
 
 .text_h {
-    font-size: 2.5em;
+    font-size: 2.0em;
     font-weight: 200;
     color: #FFF;
     padding-bottom: 1.5em;
