@@ -1,7 +1,3 @@
-body {
-    background-color: #d91b5c;
-}
-
 .cranberryColor {
     background-color: #d91b5c;
 }
@@ -16,7 +12,7 @@ body {
 } */
 
 .img-intro {
-    filter: opacity(0.6);
+    filter: opacity(0.4);
     height: 632px;
 }
 
@@ -55,8 +51,14 @@ nav ul a {
 }
 
 .text_h {
-    font-size: 2.0em;
+    font-size: 2.3em;
     font-weight: 200;
     color: #FFF;
     padding-bottom: 1.5em;
+}
+
+.carousel h1 a {
+    color: #f7a81b;
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
 }
